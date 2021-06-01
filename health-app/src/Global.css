@@ -1,0 +1,21 @@
+.light {
+  --theme-color: #A80000;
+  --theme-page-background: #FFF;
+  --theme-page-text: #111;
+}
+
+.dark {
+  --theme-color: #0000A8;
+  --theme-page-background: #444444;
+  --theme-page-text: var(--g-text-color-dark);
+
+    /* --theme-page--bg-color: #444444;
+    --text-color: var(--g-text-color-dark);
+    --border-color: var(--dark-bg-dark-shadow);
+    --box-shadow: 3px 3px 6px var(--dark-bg-light-shadow), -3px -3px 6px var(--dark-bg-dark-shadow);
+    --box-shadow-2: 6px 6px 12px var(--dark-bg-light-shadow), -6px -6px 12px var(--dark-bg-dark-shadow);
+    --box-shadow-3: 9px 9px 18px var(--dark-bg-light-shadow), -9px -9px 18px var(--dark-bg-dark-shadow);
+    --box-shadow-4: 12px 12px 24px var(--dark-bg-light-shadow), -12px -12px 24px var(--dark-bg-dark-shadow);
+    --box-shadow-5: 15px 15px 30px var(--dark-bg-light-shadow), -15px -15px 30px var(--dark-bg-dark-shadow);
+    --box-shadow-inset: inset -2px -2px 5px var(--dark-bg-light-shadow), inset 2px 2px 5px var(--dark-bg-light-shadow); */
+}

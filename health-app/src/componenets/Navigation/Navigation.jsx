@@ -20,7 +20,7 @@ function Navigation(props) {
                 <IconButton size='small'>
                     <NavLink 
                         to="/program" 
-                        className={window.location.pathname !== "/program" ? 'links' : "blue-link"}
+                        className={window.location.pathname !== "/program" && window.location.pathname !== "/" ? 'links' : "blue-link"}
                     >
                         <Icon path={mdiHome} size={1.2} />
                     </NavLink>
